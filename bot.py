@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 # === НАСТРОЙКИ (ЗАМЕНИ НА СВОИ ДАННЫЕ!) ===
-TELEGRAM_TOKEN = "8846781149:AAHTqscRWbBgHjyiFfCM512vWfYi7Dy5y14"
+TELEGRAM_TOKEN = "8846781149:AAEaflJh0I2Uw0HEG91as0nlVgeOBZGgEOs"
 ANYTHINGLLM_API_URL = "http://localhost:3001/api/v1/workspace/ragg1_bot/chat"
 ANYTHINGLLM_API_TOKEN = "60E83B7-9J04MRD-J2859BD-QJA96SP"
 AUTH_PASSWORD = "7777"  # Простой пароль для доступа
