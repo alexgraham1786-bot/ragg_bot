@@ -51,9 +51,10 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "Content-Type": "application/json"
     }
     data = {
-        "message": user_message,
-        "mode": "query"
-    }
+    "message": user_message,
+    "mode": "query",
+    "stream": False
+}
 
     try:
         response = requests.post(ANYTHINGLLM_API_URL, json=data, headers=headers, timeout=30)
